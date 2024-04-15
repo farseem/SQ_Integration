@@ -8,6 +8,7 @@ public class SqintghApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SqintghApplication.class, args);
+		System.out.print("Hello!");
 	}
 
 }
