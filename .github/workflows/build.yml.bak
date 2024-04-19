@@ -36,6 +36,3 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: ./gradlew build sonar --info
-        
-        
-        I have installed and ran analysis on one of the project. I hope this will be adopted by 
